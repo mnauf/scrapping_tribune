@@ -18,7 +18,7 @@ if __name__ == '__main__':
         soup = BeautifulSoup(html,'lxml')
 
     news_title = soup.find_all("h2",{"class":"title"})
-    news_title = soup.find_all("div",{"class":"story  cat-0 group-0 position-14 sub-story clearfix"})
+    # news_title = soup.find_all("div",{"class":"story  cat-0 group-0 position-14 sub-story clearfix"})
     
     news_description = soup.find_all("p",{"class":"excerpt"})
     title_list = []
