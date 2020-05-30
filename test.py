@@ -8,10 +8,6 @@ headers = {
 }
 
 if __name__ == '__main__':
-    Date = '-'
-    Title = '-'
-    record = []
-
     # Access the page
     r = requests.get('https://tribune.com.pk/kse-100-index/')
 
